@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7866426718B9556200D8F303 /* method.m in Sources */ = {isa = PBXBuildFile; fileRef = 7866426618B9556200D8F303 /* method.m */; };
 		789342FC18B42F9300A718FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789342FB18B42F9300A718FD /* Foundation.framework */; };
 		789342FE18B42F9300A718FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789342FD18B42F9300A718FD /* CoreGraphics.framework */; };
 		7893430018B42F9300A718FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789342FF18B42F9300A718FD /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7866426518B9556200D8F303 /* method.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = method.h; sourceTree = "<group>"; };
+		7866426618B9556200D8F303 /* method.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = method.m; sourceTree = "<group>"; };
 		789342F818B42F9300A718FD /* SpiritKit2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpiritKit2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		789342FB18B42F9300A718FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		789342FD18B42F9300A718FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -128,6 +131,8 @@
 				7893431318B42F9300A718FD /* ViewController.m */,
 				7893431518B42F9300A718FD /* MyScene.h */,
 				7893431618B42F9300A718FD /* MyScene.m */,
+				7866426518B9556200D8F303 /* method.h */,
+				7866426618B9556200D8F303 /* method.m */,
 				7893431818B42F9300A718FD /* Spaceship.png */,
 				7893431A18B42F9300A718FD /* Images.xcassets */,
 				7893430418B42F9300A718FD /* Supporting Files */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7893431718B42F9300A718FD /* MyScene.m in Sources */,
+				7866426718B9556200D8F303 /* method.m in Sources */,
 				7893431418B42F9300A718FD /* ViewController.m in Sources */,
 				7893430E18B42F9300A718FD /* AppDelegate.m in Sources */,
 				7893430A18B42F9300A718FD /* main.m in Sources */,
@@ -476,6 +482,7 @@
 				7893433318B42F9300A718FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7893433418B42F9300A718FD /* Build configuration list for PBXNativeTarget "SpiritKit2Tests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +491,7 @@
 				7893433618B42F9300A718FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
